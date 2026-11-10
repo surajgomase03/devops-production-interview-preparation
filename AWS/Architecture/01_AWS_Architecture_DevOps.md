@@ -1,7 +1,4 @@
 # AWS Architecture & DevOps Interview Answers
-## Questions 1–9
-
-**Answer style:** Speak the “Interview-ready answer” first. Use the supporting sections when the interviewer asks for more detail. The spoken answer length is flexible: basic answers can be under a minute, while architecture and scenario answers may take 2–3 minutes.
 
 ---
 
