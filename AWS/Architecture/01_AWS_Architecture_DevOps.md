@@ -271,34 +271,6 @@ I would choose based on domain boundaries, scale, release independence and team 
 
 In an e-commerce platform, catalogue, cart, order, payment and notification can be separate services when they have distinct business ownership, scaling and release needs. For a small application with a small team and limited traffic, a modular monolith may be cheaper and easier to operate.
 
-## Security and reliability best practices
-
-- Authenticate and authorize service-to-service calls.
-- Use TLS and secure API gateways.
-- Apply timeouts, bounded retries, circuit breakers and rate limits.
-- Avoid shared credentials and broad network access.
-- Use centralized secrets management and service identity.
-- Add distributed tracing and correlation IDs.
-- Design asynchronous consumers to be idempotent.
-- Define clear data ownership; avoid uncontrolled shared-database coupling.
-
-## Follow-up questions
-
-1. What is a bounded context?
-2. How do microservices communicate?
-3. How do you handle distributed transactions?
-4. What is the Saga pattern?
-5. How do you troubleshoot latency across services?
-6. Can microservices share one database?
-7. What is a modular monolith?
-
-## What the interviewer expects
-
-- You understand trade-offs, not just definitions.
-- You know microservices introduce distributed-system complexity.
-- You can relate architecture to business domains, team ownership and independent scaling.
-- You understand observability, security and data consistency requirements.
-
 ## What to avoid
 
 - Do not say microservices are always better.
